@@ -1,0 +1,25 @@
+h2{
+    color:green;
+    text-align: center;
+
+}
+
+p{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left:40%;
+}
+body{
+    align-items: center;
+}
+textarea{
+    margin-left: 35%;
+     font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+button{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left:50%;
+}
