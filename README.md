@@ -49,8 +49,8 @@ graph TB
     UI -->|"HTTP Requests<br/>(GET/POST/PUT/DELETE)"| API
     API -->|"Validates Data"| ORM
     ORM -->|"BSON Queries"| DB
-    DB -->>|"Result Sets"| ORM
-    ORM -->>|"Mongoose Documents"| API
+    DB -->|"Result Sets"| ORM
+    ORM -->|"Mongoose Documents"| API
     API -->|"Render HTML"| UI
 ```
 
